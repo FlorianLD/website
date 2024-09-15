@@ -5,12 +5,12 @@ document.addEventListener('DOMContentLoaded', function () {
 
     cases[0].addEventListener('mouseout', function () {
         project_desc.firstChild.nodeValue = 
-        "While invocies are key elements in most business activities, retrieving their data consistently requires an easy way to extract it in a structured output. This POC uses computer vision to extract the invoice information and send it to a Google Sheet for further analysis.";
+        "Pricing is a crucial part of a company strategy when trying to optimize sales performance. A pricing tool can benefit Sales teams by providing them with a status-based workflow and a complete visibility of price and request history with date data.";
     });
     
     cases[1].addEventListener('mouseover', function () {
         project_desc.firstChild.nodeValue = 
-        "Several frameworks of the python ecosystem are targeted towards data apps development. These frameworks offer an alternative way to develop BI solutions without relying on traditional vendors like Microsoft or Salesforce. This demo app uses the Dash Plotly framework.";
+        "While invocies are key elements in most business activities, retrieving their data consistently requires an easy way to extract it in a structured output. This POC uses computer vision to extract the invoice information and send it to a Google Sheet for further analysis.";
     });
 
     cases[2].addEventListener('mouseout', function () {
